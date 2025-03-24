@@ -3,7 +3,6 @@
 	import { setDiagnostics } from '@codemirror/lint';
 	import { EditorView } from '@codemirror/view';
 	import { Workspace, type File } from './Workspace.svelte.js';
-	import './codemirror.css';
 
 	interface Props {
 		workspace: Workspace;
