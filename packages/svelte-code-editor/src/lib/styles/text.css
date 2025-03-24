@@ -1,0 +1,48 @@
+/* TODO all this should probably be moved into Text.svelte */
+
+/** make long comments wrap on mobile */
+:where(.token.comment.wrapped) {
+	display: block;
+	white-space: pre-wrap;
+	padding-left: calc(var(--indent) + 2ch);
+	text-indent: calc(-1 * var(--indent) - 2ch);
+	min-height: 1.35em;
+}
+
+.ts-block-property > pre {
+	margin: 0;
+	padding-left: 1rem;
+	border-radius: 0;
+	box-shadow: none;
+	border-top: 1px solid var(--sk-border);
+}
+
+.ts-block-property-details {
+	padding: 0 1rem 0 2rem;
+}
+
+.ts-block-property-details blockquote {
+	margin: 1rem 0;
+}
+
+.ts-block-property-children {
+	margin: 0rem -1rem 0rem 1rem;
+}
+
+.ts-block-property-bullets {
+	li {
+		&::before {
+			content: none !important;
+		}
+	}
+
+	.tag {
+		font: var(--sk-font-ui-medium);
+		text-transform: uppercase;
+		color: var(--sk-fg-4);
+	}
+}
+
+.ts-block-property ul:last-child {
+	margin-bottom: 0;
+}

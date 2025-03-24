@@ -1,0 +1,9 @@
+@import './tokens/colours.css';
+@import './tokens/dimensions.css';
+@import './tokens/typography.css';
+
+:root {
+	/* this is necessary for elements with filters on safari, because safari is a uniquely awful piece of software.
+	   the 0.01 prevents Vite from optimising it to `translate(0, 0)`, which doesn't fix anything */
+	--safari-fix: translate3d(0, 0, 0.01);
+}

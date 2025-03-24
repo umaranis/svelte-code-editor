@@ -1,0 +1,200 @@
+/*	base reset ----------------------------- */
+html {
+	font-size: 62.5%;
+	-webkit-text-size-adjust: 100%;
+	-ms-overflow-style: -ms-autohiding-scrollbar;
+	box-sizing: border-box;
+	border-collapse: collapse;
+}
+
+html,
+body {
+	height: 100%;
+	width: 100%;
+}
+
+:root {
+	--quint-out: cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+body {
+	font-family: var(--sk-font-family-body);
+	line-height: 1.5;
+	color: var(--sk-fg-2);
+	background-color: var(--sk-bg-1);
+	width: 100%;
+	tab-size: 2;
+	-moz-tab-size: 2;
+}
+
+* {
+	box-sizing: inherit;
+	margin: 0;
+	padding: 0;
+	scrollbar-width: thin;
+	scrollbar-color: var(--sk-scrollbar) transparent;
+}
+
+*:focus-visible {
+	outline: 2px solid var(--sk-fg-accent);
+	border-radius: var(--sk-border-radius);
+}
+
+p,
+ul,
+ol {
+	font: var(--sk-font-body);
+	margin: 0.5lh 0;
+
+	&:first-child {
+		margin-top: 0;
+	}
+
+	&:last-child {
+		margin-bottom: 0;
+	}
+}
+
+a {
+	position: relative;
+	text-decoration: none;
+	cursor: pointer;
+	color: inherit;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+h1 {
+	font: var(--sk-font-h1);
+}
+
+h2 {
+	font: var(--sk-font-h2);
+}
+
+h3 {
+	font: var(--sk-font-h3);
+}
+
+h1,
+h2,
+h3 {
+	position: relative;
+	text-wrap: balance;
+	color: var(--sk-fg-1);
+}
+
+strong {
+	font-weight: 400;
+}
+
+code,
+kbd {
+	font-size: 0.666em;
+	position: relative;
+	border-radius: var(--sk-border-radius);
+	white-space: nowrap;
+	background: var(--sk-bg-4);
+	line-height: 1.7;
+}
+
+code {
+	font-family: var(--sk-font-family-mono);
+	margin: 0 0.2rem;
+	padding: 0.4rem;
+}
+
+kbd {
+	font-family: var(--sk-font-family-ui);
+}
+
+pre {
+	overflow-x: auto;
+}
+
+pre code {
+	top: 0;
+	white-space: inherit;
+	background-color: transparent;
+	padding: 0;
+	margin: 0;
+	font-size: var(--sk-font-size-mono);
+}
+
+header {
+	margin-bottom: 4rem;
+}
+
+::selection {
+	background: var(--sk-bg-selection);
+}
+
+/*	opinionated styles --------------------- */
+blockquote {
+	position: relative;
+	margin: var(--sk-line-height-body) 0;
+	max-width: var(--sk-page-content-width);
+}
+
+blockquote :where(p, ul, ol) {
+	font-size: var(--sk-font-size-body-small);
+}
+
+blockquote :last-child {
+	margin: 0;
+}
+
+/*  buttons -------------------------------- */
+input,
+button {
+	font-family: var(--sk-font-family-ui);
+	font-size: inherit;
+}
+
+button {
+	background-color: transparent;
+	border: none;
+	color: currentColor;
+}
+
+button[disabled] {
+	color: var(--sk-fg-4);
+}
+
+/*  links ------------------------------------- */
+a {
+	color: var(--sk-fg-accent);
+}
+
+/*  tables --------------------------------- */
+table {
+	width: 100%;
+	font: var(--sk-font-body-small);
+}
+
+td,
+th {
+	text-align: left;
+	border-bottom: 1px solid #eee;
+	padding: 0.4rem 0.8rem 0.4rem 0;
+}
+
+table :where(code, span) {
+	white-space: pre;
+}
+
+/*	helper styles -------------------------- */
+/* visually hidden, but accessible to assistive tech */
+.visually-hidden {
+	border: 0;
+	clip: rect(0 0 0 0);
+	height: auto;
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px;
+	white-space: nowrap;
+}
