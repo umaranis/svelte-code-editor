@@ -30,6 +30,10 @@ pnpm add @umaranis/svelte-code-editor
 
 ## Usage
 
+1- Add Icons to your project. Copy the contents of `svelte-code-editor/demos/editor-app/src/lib/icons` into `$lib/icons` in your project.
+
+2- Import and use the components and styles into your project.
+
 ```svelte
 <script lang="ts">
  import Editor from '$lib/Editor.svelte';
