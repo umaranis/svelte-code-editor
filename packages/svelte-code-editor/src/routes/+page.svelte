@@ -5,7 +5,6 @@
 	import ThemeToggle from '$lib/components/ThemeToggle.svelte';
 	import type { File } from '$lib/Workspace.svelte';
 	import '$lib/styles/index.css';
-	import '$lib/codemirror.css';
 
 	const dummy: File = {
 		type: 'file',
