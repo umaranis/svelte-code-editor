@@ -4,7 +4,7 @@
 
 It is extracted out of the official [Svelte playground](https://svelte.dev/playground) into a component to facilitate reuse.
 
-![alt text](../../docs/images/screenshot.png)
+![alt text](https://raw.githubusercontent.com/umaranis/svelte-code-editor/refs/heads/main/docs/images/screenshot.png)
 
 The package contains the following components:
 
