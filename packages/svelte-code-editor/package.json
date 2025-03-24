@@ -17,9 +17,9 @@
 	},
 	"exports": {
 		".": {
-			"types": "./src/lib/index.ts",
-			"svelte": "./src/lib/index.ts"
-		},
+      "types": "./dist/index.d.ts",
+      "svelte": "./dist/index.js"
+    },
 		"./styles/index.css": "./src/lib/styles/index.css"
 	},
 	"sideEffects": [
