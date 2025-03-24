@@ -8,19 +8,6 @@ importers:
 
   .:
     dependencies:
-      '@codemirror/lint':
-        specifier: ^6.8.2
-        version: 6.8.4
-      '@lezer/highlight':
-        specifier: ^1.2.1
-        version: 1.2.1
-      esm-env:
-        specifier: ^1.0.0
-        version: 1.2.2
-      tarparser:
-        specifier: ^0.0.4
-        version: 0.0.4
-    devDependencies:
       '@codemirror/autocomplete':
         specifier: ^6.9.0
         version: 6.18.6
@@ -39,6 +26,9 @@ importers:
       '@codemirror/language':
         specifier: ^6.10.3
         version: 6.11.0
+      '@codemirror/lint':
+        specifier: ^6.8.2
+        version: 6.8.4
       '@codemirror/search':
         specifier: ^6.5.6
         version: 6.5.10
@@ -63,12 +53,25 @@ importers:
       '@fontsource/fira-sans':
         specifier: ^5.1.0
         version: 5.2.5
+      '@lezer/highlight':
+        specifier: ^1.2.1
+        version: 1.2.1
       '@replit/codemirror-lang-svelte':
         specifier: ^6.0.0
         version: 6.0.0(@codemirror/autocomplete@6.18.6)(@codemirror/lang-css@6.3.1)(@codemirror/lang-html@6.4.9)(@codemirror/lang-javascript@6.2.3)(@codemirror/language@6.11.0)(@codemirror/state@6.5.2)(@codemirror/view@6.36.4)(@lezer/common@1.2.3)(@lezer/highlight@1.2.1)(@lezer/javascript@1.4.21)(@lezer/lr@1.4.2)
       '@replit/codemirror-vim':
         specifier: ^6.0.14
         version: 6.2.1(@codemirror/commands@6.8.0)(@codemirror/language@6.11.0)(@codemirror/search@6.5.10)(@codemirror/state@6.5.2)(@codemirror/view@6.36.4)
+      codemirror:
+        specifier: ^6.0.1
+        version: 6.0.1
+      esm-env:
+        specifier: ^1.0.0
+        version: 1.2.2
+      tarparser:
+        specifier: ^0.0.4
+        version: 0.0.4
+    devDependencies:
       '@sveltejs/adapter-auto':
         specifier: ^3.0.0
         version: 3.3.1(@sveltejs/kit@2.20.2(@sveltejs/vite-plugin-svelte@4.0.4(svelte@5.25.3)(vite@5.4.14))(svelte@5.25.3)(vite@5.4.14))
@@ -81,9 +84,6 @@ importers:
       '@sveltejs/vite-plugin-svelte':
         specifier: ^4.0.0
         version: 4.0.4(svelte@5.25.3)(vite@5.4.14)
-      codemirror:
-        specifier: ^6.0.1
-        version: 6.0.1
       prettier:
         specifier: ^3.1.1
         version: 3.5.3
