@@ -77,15 +77,15 @@
 		width: 1.8rem;
 		height: 1.8rem;
 		z-index: 9999;
-		background: url(./runes-off-light.svg) no-repeat 50% 50%;
+		background: url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M12.5 3L5 14h6l-1 7 7.5-11h-6l1-7z' stroke='%23676778' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") no-repeat 50% 50%;
 		background-size: contain;
 
 		:root.dark &:not(.active) {
-			background-image: url(./runes-off-dark.svg);
+			background-image: url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M12.5 3L5 14h6l-1 7 7.5-11h-6l1-7z' stroke='%23CCCCCC' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
 		}
 
 		&.active {
-			background-image: url(./runes-on-light.svg);
+			background-image: url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M12.5 3L5 14h6l-1 7 7.5-11h-6l1-7z' stroke='%23FF3E00' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round' fill='%23FF3E00'/%3E%3C/svg%3E");
 			animation: bump 0.4s;
 		}
 	}

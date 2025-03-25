@@ -235,24 +235,24 @@
 					}
 
 					&::before {
-						background-image: url(../icons/copy-to-clipboard-light.svg);
+						background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='%23676778' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Crect x='9' y='9' width='13' height='13' rx='2' ry='2'%3E%3C/rect%3E%3Cpath d='M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1'%3E%3C/path%3E%3C/svg%3E");
 					}
 
 					&::after {
-						background-image: url(../icons/check-light.svg);
+						background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='%23676778' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='20 6 9 17 4 12'%3E%3C/polyline%3E%3C/svg%3E");
 						opacity: 0;
 
 						html.dark & {
-							background-image: url(../icons/check-dark.svg);
+							background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='%23CCCCCC' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='20 6 9 17 4 12'%3E%3C/polyline%3E%3C/svg%3E");
 						}
 					}
 
 					html.dark &::before {
-						background-image: url(../icons/copy-to-clipboard-dark.svg);
+						background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='%23CCCCCC' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Crect x='9' y='9' width='13' height='13' rx='2' ry='2'%3E%3C/rect%3E%3Cpath d='M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1'%3E%3C/path%3E%3C/svg%3E");
 					}
 
 					html.dark &::after {
-						background-image: url(../icons/check-dark.svg);
+						background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='%23CCCCCC' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='20 6 9 17 4 12'%3E%3C/polyline%3E%3C/svg%3E");
 					}
 
 					&:active::before {
@@ -341,7 +341,7 @@
 		a.permalink {
 			position: absolute !important;
 			display: block;
-			background: url(../icons/hash-light.svg) 50% 50% no-repeat;
+			background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='%23676778' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M4 9h16M4 15h16M10 3L8 21M16 3l-2 18'/%3E%3C/svg%3E") 50% 50% no-repeat;
 			background-size: 2.4rem 2.4rem;
 			width: 2.6rem;
 			height: 2.2rem;
@@ -353,7 +353,7 @@
 			}
 
 			:root.dark & {
-				background-image: url(../icons/hash-dark.svg);
+				background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='%23CCCCCC' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M4 9h16M4 15h16M10 3L8 21M16 3l-2 18'/%3E%3C/svg%3E");
 			}
 
 			@media (min-width: 768px) {
@@ -425,7 +425,7 @@
 					content: none;
 				}
 
-				background: url($lib/icons/lightbulb.svg) no-repeat 0.5rem 0 / 2.6rem;
+				background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='%23676778' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M9 18h6'%3E%3C/path%3E%3Cpath d='M12 2v8'%3E%3C/path%3E%3Cpath d='M12 18v4'%3E%3C/path%3E%3Cpath d='M15.09 7.5a5 5 0 1 0-6.18 0'%3E%3C/path%3E%3Cpath d='M9.21 14.5a3 3 0 0 1 5.58 0'%3E%3C/path%3E%3C/svg%3E") no-repeat 0.5rem 0 / 2.6rem;
 			}
 
 			&:first-child {
@@ -500,7 +500,7 @@
 			}
 
 			&::after {
-				background: url($lib/icons/chevron.svg) 50% 50% no-repeat;
+				background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='%23676778' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'/%3E%3C/svg%3E") 50% 50% no-repeat;
 				background-size: 2rem;
 				rotate: 0deg;
 				transition: rotate 0.2s;
