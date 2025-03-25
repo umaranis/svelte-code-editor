@@ -1,7 +1,7 @@
 {
 	"name": "@umaranis/svelte-code-editor",
 	"description": "Code Editor for Svelte based on CodeMirror",
-	"version": "0.0.7",
+	"version": "0.0.8",
 	"license": "MIT",
 	"scripts": {
 		"dev": "vite dev",
