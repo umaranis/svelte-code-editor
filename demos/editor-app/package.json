@@ -18,7 +18,7 @@
 		"@eslint/js": "^9.18.0",
 		"@sveltejs/adapter-auto": "^4.0.0",
 		"@sveltejs/kit": "^2.16.0",
-		"@sveltejs/vite-plugin-svelte": "^5.0.0",
+		"@sveltejs/vite-plugin-svelte": "^4.0.0",
 		"eslint": "^9.18.0",
 		"eslint-config-prettier": "^10.0.1",
 		"eslint-plugin-svelte": "^3.0.0",
@@ -29,7 +29,7 @@
 		"svelte-check": "^4.0.0",
 		"typescript": "^5.0.0",
 		"typescript-eslint": "^8.20.0",
-		"vite": "^6.0.0"
+		"vite": "^5.0.11"
 	},
 	"pnpm": {
 		"onlyBuiltDependencies": [
@@ -37,6 +37,6 @@
 		]
 	},
 	"dependencies": {
-		"@umaranis/svelte-code-editor": "^0.0.5"
+		"@umaranis/svelte-code-editor": "^0.0.7"
 	}
 }
