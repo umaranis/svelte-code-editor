@@ -10,7 +10,7 @@ let uid = 1;
 
 if (BROWSER) {
 	//worker = new CompileWorker();
-	worker = new Worker(new URL('./worker.ts', import.meta.url), { type: 'module' });
+	worker = new Worker(new URL('./worker', import.meta.url), { type: 'module' });
 
 	worker.addEventListener('message', (event) => {
 		const { filename, id, payload } = event.data;

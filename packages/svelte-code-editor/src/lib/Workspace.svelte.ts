@@ -6,7 +6,7 @@ import { basicSetup, EditorView } from 'codemirror';
 import { javascript } from '@codemirror/lang-javascript';
 import { html } from '@codemirror/lang-html';
 import { svelte } from '@replit/codemirror-lang-svelte';
-import { autocomplete_for_svelte } from '$lib/codemirror';
+import { autocomplete_for_svelte } from '$lib/codemirror/index';
 import { Decoration, keymap, type DecorationSet } from '@codemirror/view';
 import { acceptCompletion } from '@codemirror/autocomplete';
 import { indentWithTab } from '@codemirror/commands';
