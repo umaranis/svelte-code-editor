@@ -30,9 +30,13 @@ pnpm add @umaranis/svelte-code-editor
 
 ## Usage
 
-1- Add Icons to your project. Copy the contents of `svelte-code-editor/demos/editor-app/src/lib/icons` into `$lib/icons` in your project.
+1- Import the desired components into the page `import TabbedEditor from '$lib/TabbedEditor.svelte';`
 
-2- Import and use the components and styles into your project.
+2- Create `File` and `Workspace` objects
+
+3- Include the component in your page `<TabbedEditor {workspace} />`
+
+Here is  an example:
 
 ```svelte
 <script lang="ts">
@@ -41,7 +45,7 @@ pnpm add @umaranis/svelte-code-editor
  import { Workspace } from '$lib/Workspace.svelte';
  import ThemeToggle from '$lib/components/ThemeToggle.svelte';
  import type { File } from '$lib/Workspace.svelte';
- import '$lib/styles/index.css';
+import '@umaranis/svelte-code-editor/styles/index.css';
 
  const file: File = {
   type: 'file',
