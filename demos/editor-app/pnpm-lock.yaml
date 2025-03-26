@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@umaranis/svelte-code-editor':
-        specifier: ^0.0.8
-        version: 0.0.8(@lezer/common@1.2.3)(@lezer/javascript@1.4.21)(@lezer/lr@1.4.2)(svelte@5.25.3)
+        specifier: ^0.0.9
+        version: 0.0.9(@lezer/common@1.2.3)(@lezer/javascript@1.4.21)(@lezer/lr@1.4.2)(svelte@5.25.3)
     devDependencies:
       '@eslint/compat':
         specifier: ^1.2.5
@@ -585,8 +585,8 @@ packages:
     resolution: {integrity: sha512-WsXQwMkILJvffP6z4U3FYJPlbf/j07HIxmDjZpbNvBJkMfvwXj5ACRkkHwBDvLBbDbtX5TdU64/rcvKJ/vuInQ==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
 
-  '@umaranis/svelte-code-editor@0.0.8':
-    resolution: {integrity: sha512-NWvQEp5g401QVJGOs+9uAxcLSURZBPDczC6ZGITzPNlE1CfrQVo7ZuIJdUFLjfCxUBLuwGzBoYMg/sWLZGbpiA==}
+  '@umaranis/svelte-code-editor@0.0.9':
+    resolution: {integrity: sha512-cIXTY3WFwTCKrjKDjeh6LCzCRibkVCphRGB2Oso6I0VmySUueiiIFneahloAokWB/iQRaDZYQWYI/viixVCnsA==}
     peerDependencies:
       svelte: ^5.0.0
 
@@ -1718,7 +1718,7 @@ snapshots:
       '@typescript-eslint/types': 8.27.0
       eslint-visitor-keys: 4.2.0
 
-  '@umaranis/svelte-code-editor@0.0.8(@lezer/common@1.2.3)(@lezer/javascript@1.4.21)(@lezer/lr@1.4.2)(svelte@5.25.3)':
+  '@umaranis/svelte-code-editor@0.0.9(@lezer/common@1.2.3)(@lezer/javascript@1.4.21)(@lezer/lr@1.4.2)(svelte@5.25.3)':
     dependencies:
       '@codemirror/autocomplete': 6.18.6
       '@codemirror/commands': 6.8.0

@@ -37,6 +37,6 @@
 		]
 	},
 	"dependencies": {
-		"@umaranis/svelte-code-editor": "^0.0.8"
+		"@umaranis/svelte-code-editor": "^0.0.9"
 	}
 }

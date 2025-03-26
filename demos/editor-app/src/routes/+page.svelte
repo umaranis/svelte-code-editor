@@ -1,6 +1,7 @@
 <script lang="ts">
 	import {TabbedEditor, Workspace} from '@umaranis/svelte-code-editor';
   import type { File } from '@umaranis/svelte-code-editor';
+  import '@umaranis/svelte-code-editor/styles/index.css';
 
   const file: File = {
   type: 'file',
