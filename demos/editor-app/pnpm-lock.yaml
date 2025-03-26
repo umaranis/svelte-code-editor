@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@umaranis/svelte-code-editor':
-        specifier: ^0.0.9
-        version: 0.0.9(@lezer/common@1.2.3)(@lezer/javascript@1.4.21)(@lezer/lr@1.4.2)(svelte@5.25.3)
+        specifier: ^0.0.10
+        version: 0.0.10(@lezer/common@1.2.3)(@lezer/javascript@1.4.21)(@lezer/lr@1.4.2)(svelte@5.25.3)
     devDependencies:
       '@eslint/compat':
         specifier: ^1.2.5
@@ -85,8 +85,8 @@ packages:
   '@codemirror/language@6.11.0':
     resolution: {integrity: sha512-A7+f++LodNNc1wGgoRDTt78cOwWm9KVezApgjOMp1W4hM0898nsqBXwF+sbePE7ZRcjN7Sa1Z5m2oN27XkmEjQ==}
 
-  '@codemirror/lint@6.8.4':
-    resolution: {integrity: sha512-u4q7PnZlJUojeRe8FJa/njJcMctISGgPQ4PnWsd9268R4ZTtU+tfFYmwkBvgcrK2+QQ8tYFVALVb5fVJykKc5A==}
+  '@codemirror/lint@6.8.5':
+    resolution: {integrity: sha512-s3n3KisH7dx3vsoeGMxsbRAgKe4O1vbrnKBClm99PU0fWxmxsx5rR2PfqQgIt+2MMJBHbiJ5rfIdLYfB9NNvsA==}
 
   '@codemirror/search@6.5.10':
     resolution: {integrity: sha512-RMdPdmsrUf53pb2VwflKGHEe1XVM07hI7vV2ntgw1dmqhimpatSJKva4VA9h4TLUDOD4EIF02201oZurpnEFsg==}
@@ -338,8 +338,8 @@ packages:
   '@lezer/common@1.2.3':
     resolution: {integrity: sha512-w7ojc8ejBqr2REPsWxJjrMFsA/ysDCFICn8zEOR9mrqzOu2amhITYuLD8ag6XZf0CFXDrhKqw7+tW8cX66NaDA==}
 
-  '@lezer/css@1.1.10':
-    resolution: {integrity: sha512-V5/89eDapjeAkWPBpWEfQjZ1Hag3aYUUJOL8213X0dFRuXJ4BXa5NKl9USzOnaLod4AOpmVCkduir2oKwZYZtg==}
+  '@lezer/css@1.1.11':
+    resolution: {integrity: sha512-FuAnusbLBl1SEAtfN8NdShxYJiESKw9LAFysfea1T96jD3ydBn12oYjaSG1a04BQRIUd93/0D8e5CV1cUMkmQg==}
 
   '@lezer/highlight@1.2.1':
     resolution: {integrity: sha512-Z5duk4RN/3zuVO7Jq0pGLJ3qynpxUVsh7IbUbGj88+uV2ApSAn6kWg2au3iJb+0Zi7kKtqffIESgNcRXWZWmSA==}
@@ -585,8 +585,8 @@ packages:
     resolution: {integrity: sha512-WsXQwMkILJvffP6z4U3FYJPlbf/j07HIxmDjZpbNvBJkMfvwXj5ACRkkHwBDvLBbDbtX5TdU64/rcvKJ/vuInQ==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
 
-  '@umaranis/svelte-code-editor@0.0.9':
-    resolution: {integrity: sha512-cIXTY3WFwTCKrjKDjeh6LCzCRibkVCphRGB2Oso6I0VmySUueiiIFneahloAokWB/iQRaDZYQWYI/viixVCnsA==}
+  '@umaranis/svelte-code-editor@0.0.10':
+    resolution: {integrity: sha512-TQKxj7cZXdlLuMzfQEGdWomaX7iUGfMg7KZq7mmHpAZOb/+1ox4NWpqEpRXY2T1gHqXyqdLy0YKvE8CSHDO8hQ==}
     peerDependencies:
       svelte: ^5.0.0
 
@@ -1249,7 +1249,7 @@ snapshots:
       '@codemirror/language': 6.11.0
       '@codemirror/state': 6.5.2
       '@lezer/common': 1.2.3
-      '@lezer/css': 1.1.10
+      '@lezer/css': 1.1.11
 
   '@codemirror/lang-html@6.4.9':
     dependencies:
@@ -1260,14 +1260,14 @@ snapshots:
       '@codemirror/state': 6.5.2
       '@codemirror/view': 6.36.4
       '@lezer/common': 1.2.3
-      '@lezer/css': 1.1.10
+      '@lezer/css': 1.1.11
       '@lezer/html': 1.3.10
 
   '@codemirror/lang-javascript@6.2.3':
     dependencies:
       '@codemirror/autocomplete': 6.18.6
       '@codemirror/language': 6.11.0
-      '@codemirror/lint': 6.8.4
+      '@codemirror/lint': 6.8.5
       '@codemirror/state': 6.5.2
       '@codemirror/view': 6.36.4
       '@lezer/common': 1.2.3
@@ -1282,7 +1282,7 @@ snapshots:
       '@lezer/lr': 1.4.2
       style-mod: 4.1.2
 
-  '@codemirror/lint@6.8.4':
+  '@codemirror/lint@6.8.5':
     dependencies:
       '@codemirror/state': 6.5.2
       '@codemirror/view': 6.36.4
@@ -1463,7 +1463,7 @@ snapshots:
 
   '@lezer/common@1.2.3': {}
 
-  '@lezer/css@1.1.10':
+  '@lezer/css@1.1.11':
     dependencies:
       '@lezer/common': 1.2.3
       '@lezer/highlight': 1.2.1
@@ -1718,7 +1718,7 @@ snapshots:
       '@typescript-eslint/types': 8.27.0
       eslint-visitor-keys: 4.2.0
 
-  '@umaranis/svelte-code-editor@0.0.9(@lezer/common@1.2.3)(@lezer/javascript@1.4.21)(@lezer/lr@1.4.2)(svelte@5.25.3)':
+  '@umaranis/svelte-code-editor@0.0.10(@lezer/common@1.2.3)(@lezer/javascript@1.4.21)(@lezer/lr@1.4.2)(svelte@5.25.3)':
     dependencies:
       '@codemirror/autocomplete': 6.18.6
       '@codemirror/commands': 6.8.0
@@ -1726,7 +1726,7 @@ snapshots:
       '@codemirror/lang-html': 6.4.9
       '@codemirror/lang-javascript': 6.2.3
       '@codemirror/language': 6.11.0
-      '@codemirror/lint': 6.8.4
+      '@codemirror/lint': 6.8.5
       '@codemirror/search': 6.5.10
       '@codemirror/state': 6.5.2
       '@codemirror/view': 6.36.4
@@ -1803,7 +1803,7 @@ snapshots:
       '@codemirror/autocomplete': 6.18.6
       '@codemirror/commands': 6.8.0
       '@codemirror/language': 6.11.0
-      '@codemirror/lint': 6.8.4
+      '@codemirror/lint': 6.8.5
       '@codemirror/search': 6.5.10
       '@codemirror/state': 6.5.2
       '@codemirror/view': 6.36.4
