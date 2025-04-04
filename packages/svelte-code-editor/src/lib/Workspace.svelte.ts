@@ -5,6 +5,7 @@ import { BROWSER } from 'esm-env';
 import { basicSetup, EditorView } from 'codemirror';
 import { javascript } from '@codemirror/lang-javascript';
 import { html } from '@codemirror/lang-html';
+import { css } from '@codemirror/lang-css';
 import { svelte } from '@replit/codemirror-lang-svelte';
 import { autocomplete_for_svelte } from '$lib/codemirror/index';
 import { Decoration, keymap, type DecorationSet } from '@codemirror/view';
@@ -572,6 +573,8 @@ export class Workspace {
 		];
 
 		switch (file_type(file)) {
+			case 'tsx':
+			case 'jsx':
 			case 'ts':
 			case 'js': // TODO autocomplete, including runes
 			case 'json':
@@ -580,6 +583,10 @@ export class Workspace {
 
 			case 'html':
 				extensions.push(html());
+				break;
+
+			case 'css':
+				extensions.push(css());
 				break;
 
 			case 'svelte':
