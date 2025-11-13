@@ -14,7 +14,16 @@
 		text: true
 	};
 
-	const workspace = new Workspace([dummy], {
+	const dummy2: File = {
+		type: 'file',
+		name: 'App2.svelte',
+		basename: 'App2.svelte',
+		contents: '',
+		text: true,
+		hideCloseOption: true
+	};
+
+	const workspace = new Workspace([dummy, dummy2], {
 		initial: 'App.svelte',
 		svelte_version: 'latest',
 		onupdate() {},

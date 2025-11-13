@@ -134,6 +134,7 @@
 						}}
 					/>
 
+					{#if !file.hideCloseOption}
 					<span
 						class="remove"
 						onclick={(e) => {
@@ -148,6 +149,7 @@
 							<line stroke="#999" x1="6" y1="6" x2="18" y2="18" />
 						</svg>
 					</span>
+					{/if}
 				{/if}
 			</div>
 		{/each}

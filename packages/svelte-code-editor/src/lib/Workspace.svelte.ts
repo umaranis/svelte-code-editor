@@ -22,6 +22,7 @@ export interface File {
 	basename: string;
 	contents: string;
 	text: boolean;
+	hideCloseOption?: boolean;
 }
 
 export interface Directory {
