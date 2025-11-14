@@ -12,7 +12,7 @@
 		download?: () => void;
 	}
 
-	let { workspace, onchange = () => {}, download = () => {} }: Props = $props();
+	let { workspace, onchange = () => {}, download }: Props = $props();
 
 	let runes = $derived(
 		workspace.current.name.endsWith('.svelte.js') ||
