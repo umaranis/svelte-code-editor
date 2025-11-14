@@ -104,11 +104,11 @@
 				<i class="drag-handle"></i>
 
 				<span class="filename">
-					{(file === workspace.current && file.name !== 'App.svelte' ? input_value : file.name) +
+					{(file === workspace.current ? input_value : file.name) +
 						(workspace.modified[file.name] ? '*' : '') || ' '}
 				</span>
 
-				{#if file === workspace.current && file.name !== 'App.svelte'}
+				{#if file === workspace.current}
 					<!-- svelte-ignore a11y_autofocus -->
 					<input
 						spellcheck={false}
