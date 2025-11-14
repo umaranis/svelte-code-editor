@@ -155,12 +155,14 @@
 		{/each}
 	</div>
 
-	<button
-		class="raised add-new"
-		onclick={add_new}
-		aria-label="add new component"
-		title="add new component"
-	></button>
+	{#if workspace.allowNewFile}
+		<button
+			class="raised add-new"
+			onclick={add_new}
+			aria-label="add new component"
+			title="add new component"
+		></button>
+	{/if}
 
 	<div class="runes">
 		<RunesInfo {runes} />

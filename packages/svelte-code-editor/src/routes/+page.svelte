@@ -27,7 +27,8 @@
 		initial: 'App.svelte',
 		svelte_version: 'latest',
 		onupdate() {},
-		onreset() {}
+		onreset() {},
+		allowNewFile: false
 	});
 </script>
 

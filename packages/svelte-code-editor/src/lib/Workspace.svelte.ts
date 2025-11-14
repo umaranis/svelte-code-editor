@@ -103,6 +103,8 @@ export class Workspace {
 	creating = $state.raw<{ parent: string; type: 'file' | 'directory' } | null>(null);
 	modified = $state<Record<string, boolean>>({});
 
+	allowNewFile = $state(true);
+
 	#compiler_options = $state.raw<ExposedCompilerOptions>({
 		generate: 'client',
 		dev: false,
@@ -186,13 +188,15 @@ export class Workspace {
 			initial,
 			readonly = false,
 			onupdate,
-			onreset
+			onreset,
+			allowNewFile = true
 		}: {
 			svelte_version?: string;
 			initial?: string;
 			readonly?: boolean;
 			onupdate?: (file: File) => void;
 			onreset?: (items: Item[]) => void;
+			allowNewFile?: boolean;
 		} = {}
 	) {
 		this.#svelte_version = svelte_version;
@@ -202,6 +206,7 @@ export class Workspace {
 
 		this.#onupdate = onupdate ?? (() => {});
 		this.#onreset = onreset ?? (() => {});
+		this.allowNewFile = allowNewFile;
 
 		this.#reset_diagnostics();
 	}
