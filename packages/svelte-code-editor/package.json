@@ -17,9 +17,9 @@
 	},
 	"exports": {
 		".": {
-      "types": "./dist/index.d.ts",
-      "svelte": "./dist/index.js"
-    },
+			"types": "./dist/index.d.ts",
+			"svelte": "./dist/index.js"
+		},
 		"./styles/index.css": "./src/lib/styles/index.css"
 	},
 	"sideEffects": [
@@ -42,22 +42,20 @@
 		"prettier": "^3.1.1",
 		"prettier-plugin-svelte": "^3.3.2",
 		"publint": "^0.2.12",
-		"svelte": "^5.23.0",
+		"svelte": "^5.43.6",
 		"svelte-check": "^4.1.1",
 		"typescript": "^5.0.0",
 		"vite": "^5.0.11"
 	},
 	"type": "module",
 	"dependencies": {
-		"@lezer/highlight": "^1.2.1",
-		"codemirror": "^6.0.1",
-		"@codemirror/lint": "^6.8.2",
 		"@codemirror/autocomplete": "^6.9.0",
 		"@codemirror/commands": "^6.2.5",
 		"@codemirror/lang-css": "^6.2.1",
 		"@codemirror/lang-html": "^6.4.6",
 		"@codemirror/lang-javascript": "^6.2.1",
 		"@codemirror/language": "^6.10.3",
+		"@codemirror/lint": "^6.8.2",
 		"@codemirror/search": "^6.5.6",
 		"@codemirror/state": "^6.5.0",
 		"@codemirror/view": "^6.35.3",
@@ -66,14 +64,16 @@
 		"@fontsource/eb-garamond": "^5.1.0",
 		"@fontsource/fira-mono": "^5.1.0",
 		"@fontsource/fira-sans": "^5.1.0",
+		"@lezer/highlight": "^1.2.1",
 		"@replit/codemirror-lang-svelte": "^6.0.0",
 		"@replit/codemirror-vim": "^6.0.14",
+		"codemirror": "^6.0.1",
 		"esm-env": "^1.0.0",
 		"tarparser": "^0.0.4"
 	},
 	"keywords": [
-    "code",
-    "editor",
-    "svelte"
-  ]
+		"code",
+		"editor",
+		"svelte"
+	]
 }
